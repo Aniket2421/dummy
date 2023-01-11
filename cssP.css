@@ -1,0 +1,19 @@
+*{
+    background-color: darkolivegreen;
+}
+p{
+    color: blue;
+    height: 20px;
+    width: 30px;
+    background-color:black;
+    padding: 10px;
+    margin-left: 32px;
+}
+blockquote{
+    max-width: 600px;
+    margin: 10px;
+    padding: 15px;
+    border-left: 8px solid green;
+    background-color: #f8fffe;
+    font-weight: bold;
+}
