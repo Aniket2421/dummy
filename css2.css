@@ -1,0 +1,58 @@
+/*Descdent Selector
+div .parr,#UNique{
+    color: blue;
+}
+.parr{
+    color: green;
+}
+*/
+/* Child Selector (>) 
+div>p{
+    color: chartreuse;
+
+}
+/* Child Selector (>) 
+
+/*abjnect sibling selector (+)*/
+div + p{
+    color: fuchsia;
+}
+/*Genral sibling selector (~)*/
+div~p{
+    color: rgb(35, 203, 41);
+}
+/* pseduo class selector */
+.btn{
+    background-color: blue;
+    border: 0px;
+    padding: 10px 20px ;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: crimson;
+}
+a:active{
+    color: chartreuse;
+    background-color: gold;
+}
+a:link{
+    color: cornflowerblue;
+}
+a:visited{
+    color: darkmagenta;
+}
+/* pseduo class element*/
+p::first-line{
+    background-color: burlywood;
+}
+p::first-letter{
+    color: deepskyblue;
+    background-color: aliceblue;
+}
+p::before{
+    content: "---*---";
+}
+p::after{
+    content: "---*---";
+    
+}

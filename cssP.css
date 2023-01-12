@@ -1,6 +1,22 @@
+/*Universal Selector in universal selector Use "*";*/
+
 *{
     background-color: darkolivegreen;
+} 
+/* In the Class Selector use Class altrbute in Any tag in CSS ".class name" use like this"*/
+.msg{
+    color: darkviolet;
 }
+/*id Selecor its use Unqinqe ID #id name */
+#BAT{
+    color: gold;
+}
+/*grouping Selecotr in this we combine the class and id selector with the help of ".class nane,#idname"*/
+#BAT,.msg{
+    color: greenyellow;
+
+}
+/*tag selector*/
 p{
     color: blue;
     height: 20px;
@@ -9,6 +25,10 @@ p{
     padding: 10px;
     margin-left: 32px;
 }
+/*select only p tags with the class msg */
+p.class{
+    color: indianred;
+}
 blockquote{
     max-width: 600px;
     margin: 10px;
@@ -16,4 +36,21 @@ blockquote{
     border-left: 8px solid green;
     background-color: #f8fffe;
     font-weight: bold;
+}
+/* pseduo class selector */
+.btn{
+    background-color: blue;
+    border: 0px;
+    padding: 10px 20px ;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: crimson;
+}
+a:active{
+    color: chartreuse;
+    background-color: gold;
+}
+a:hover{
+    color: lightskyblue;
 }
